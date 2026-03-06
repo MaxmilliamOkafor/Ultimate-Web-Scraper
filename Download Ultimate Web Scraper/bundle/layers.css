@@ -1,0 +1,77 @@
+/* V2  */
+
+:root {
+  --panda-z-index-base: 900000000;
+}
+
+.panda-z {
+  z-index: calc(var(--panda-z-index-base) + 0);
+}
+
+.panda-z-1 {
+  z-index: calc(var(--panda-z-index-base) + 1);
+}
+
+.panda-z-2 {
+  z-index: calc(var(--panda-z-index-base) + 2);
+}
+
+.panda-z-3 {
+  z-index: calc(var(--panda-z-index-base) + 2);
+}
+
+.panda-z-9 {
+  z-index: calc(var(--panda-z-index-base) + 9);
+}
+
+.panda-z-10 {
+  z-index: calc(var(--panda-z-index-base) + 10);
+}
+
+.panda-z-11 {
+  z-index: calc(var(--panda-z-index-base) + 11);
+}
+
+.panda-z-12 {
+  z-index: calc(var(--panda-z-index-base) + 12);
+}
+
+/* V1 - Deprecated */
+
+.layer-floating-content {
+  z-index: 9997;
+}
+
+.layer-popup-bg {
+  z-index: 9998;
+}
+
+.layer-popup {
+  z-index: 9999;
+}
+
+.panda-layer-content-1 {
+  z-index: 10001;
+}
+
+.layer-popup-menu-bg {
+  z-index: 10002;
+}
+
+.layer-popup-menu {
+  z-index: 10003;
+}
+
+.panda-layer-content {
+  z-index: 10000;
+}
+
+/* Highlighting */
+
+.panda-layer-highlight {
+  z-index: 9996;
+}
+
+.panda-layer-highlight-1 {
+  z-index: 10001;
+}
